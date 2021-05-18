@@ -7,6 +7,7 @@ function Search(props) {
           name="search"
           type="text"
           placeholder="Search here"
+          onChange={props.employeeSearch}
         />
         <button className="btn btn-success"
           type="submit">

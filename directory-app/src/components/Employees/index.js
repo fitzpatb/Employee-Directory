@@ -12,7 +12,7 @@ function Employees(props) {
           <th>Phone Number</th>
         </tr>
       </thead>
-      {props.employeeResults.map((employee, index) => {
+      {props.searchResults.map((employee, index) => {
         return (
           <tbody key={index}>
             <tr>
