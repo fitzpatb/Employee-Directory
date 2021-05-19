@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+}
+
+form button {
+  margin-left: 5px;
+}
+
+
+table {
+  border: 2px solid;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td, th {
+  vertical-align: middle;
+}
+
+th button {
+  margin-left: 5px;
+}

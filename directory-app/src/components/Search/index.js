@@ -7,6 +7,7 @@ function Search(props) {
   }
 
   return (
+    <div className="search">
       <form className="form">
         <input
           name="search"
@@ -20,6 +21,8 @@ function Search(props) {
           Search
         </button>
       </form>
+    </div>
+
   )
 }
 

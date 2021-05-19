@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Search from "../Search";
 import Employees from "../Employees";
+import Header from "../Header"
 
 function Container() {
   const [employeeResults, setEmployeeResults] = useState([]);
@@ -50,6 +51,7 @@ function Container() {
 
   return (
     <div className="container">
+      <Header />
       <Search
         employeeSearch={employeeSearch}
 
